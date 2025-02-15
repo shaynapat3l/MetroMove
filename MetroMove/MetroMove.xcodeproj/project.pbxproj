@@ -39,7 +39,12 @@
 		0022341D2D610CB100D45BAC = {
 			isa = PBXGroup;
 			children = (
-				002234282D610CB100D45BAC /* MetroMove */,
+				002234292D610CB100D45BAC /* MetroMoveApp.swift */,
+				002234392D610F5D00D45BAC /* RentalTrendPredictor.swift */,
+				002234372D610F3B00D45BAC /* APIFetcher.swift */,
+				0022342B2D610CB100D45BAC /* ContentView.swift */,
+				0022342D2D610CB300D45BAC /* Assets.xcassets */,
+				0022342F2D610CB300D45BAC /* Preview Content */,
 				002234272D610CB100D45BAC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,19 +55,6 @@
 				002234262D610CB100D45BAC /* MetroMove.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		002234282D610CB100D45BAC /* MetroMove */ = {
-			isa = PBXGroup;
-			children = (
-				002234292D610CB100D45BAC /* MetroMoveApp.swift */,
-				002234392D610F5D00D45BAC /* RentalTrendPredictor.swift */,
-				002234372D610F3B00D45BAC /* APIFetcher.swift */,
-				0022342B2D610CB100D45BAC /* ContentView.swift */,
-				0022342D2D610CB300D45BAC /* Assets.xcassets */,
-				0022342F2D610CB300D45BAC /* Preview Content */,
-			);
-			path = MetroMove;
 			sourceTree = "<group>";
 		};
 		0022342F2D610CB300D45BAC /* Preview Content */ = {
