@@ -11,6 +11,8 @@
 		0022342C2D610CB100D45BAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0022342B2D610CB100D45BAC /* ContentView.swift */; };
 		0022342E2D610CB300D45BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0022342D2D610CB300D45BAC /* Assets.xcassets */; };
 		002234312D610CB300D45BAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002234302D610CB300D45BAC /* Preview Assets.xcassets */; };
+		002234382D610F3B00D45BAC /* APIFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002234372D610F3B00D45BAC /* APIFetcher.swift */; };
+		0022343A2D610F5D00D45BAC /* RentalTrendPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002234392D610F5D00D45BAC /* RentalTrendPredictor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0022342B2D610CB100D45BAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0022342D2D610CB300D45BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		002234302D610CB300D45BAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		002234372D610F3B00D45BAC /* APIFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetcher.swift; sourceTree = "<group>"; };
+		002234392D610F5D00D45BAC /* RentalTrendPredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalTrendPredictor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				002234292D610CB100D45BAC /* MetroMoveApp.swift */,
+				002234392D610F5D00D45BAC /* RentalTrendPredictor.swift */,
+				002234372D610F3B00D45BAC /* APIFetcher.swift */,
 				0022342B2D610CB100D45BAC /* ContentView.swift */,
 				0022342D2D610CB300D45BAC /* Assets.xcassets */,
 				0022342F2D610CB300D45BAC /* Preview Content */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0022343A2D610F5D00D45BAC /* RentalTrendPredictor.swift in Sources */,
 				0022342C2D610CB100D45BAC /* ContentView.swift in Sources */,
 				0022342A2D610CB100D45BAC /* MetroMoveApp.swift in Sources */,
+				002234382D610F3B00D45BAC /* APIFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
