@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 50px auto;
     padding: 20px;
     background: #fff;
@@ -44,14 +44,19 @@ button:hover {
 #results {
     margin-top: 20px;
 }
-#recommendations-list {
-    list-style-type: none;
-    padding: 0;
-}
-#recommendations-list li {
+.listing {
     background: #f9f9f9;
-    margin: 5px 0;
     padding: 10px;
+    margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ddd;
+}
+.listing p {
+    margin: 5px 0;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 10px 0;
 }
