@@ -3,9 +3,9 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = "insert_key"
-# Set OpenAI API key
-openai.api_key = "insert_key"
+OPENAI_API_KEY = "add-key-here"
+
+openai.api_key = "add-key-here"
 
 def generate_recommendations(user_data):
     """
@@ -58,11 +58,11 @@ def recommend():
     user_data = request.json
     print("Received User Data:", user_data)
 
-    # Generate AI-driven recommendations
+
     ai_recommendations = generate_recommendations(user_data)
     print("AI Recommendations:", ai_recommendations)
 
-    # Return combined recommendations
+
     recommendations = {
         "ai_recommendations": ai_recommendations
     }

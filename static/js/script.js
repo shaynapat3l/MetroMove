@@ -21,12 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
             if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
 
             const recommendations = await response.json();
-            console.log("Recommendations:", recommendations); // Debugging
+            console.log("Recommendations:", recommendations);
 
             const resultsDiv = document.getElementById("recommendations-output");
-            resultsDiv.innerHTML = ""; // Clear previous results
+            resultsDiv.innerHTML = "";
 
-            // AI Recommendations
+       
             if (recommendations.ai_recommendations) {
                 const aiSection = document.createElement("div");
                 aiSection.innerHTML = `<h3>AI Recommendations</h3>`;
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 resultsDiv.appendChild(aiSection);
             }
 
-            // Real Estate Listings
+
             if (recommendations.realtor_data && recommendations.realtor_data.listings) {
                 const realEstateSection = document.createElement("div");
                 realEstateSection.innerHTML = `<h3>Real Estate Listings</h3>`;
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 resultsDiv.appendChild(realEstateSection);
             }
 
-            // Cost of Living & Crime Rates
+ 
             if (recommendations.teleport_data) {
                 const teleportSection = document.createElement("div");
                 teleportSection.innerHTML = `
