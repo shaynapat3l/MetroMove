@@ -3,9 +3,9 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
-OPENAI_API_KEY = "add-key"
+OPENAI_API_KEY = "insert_key"
 # Set OpenAI API key
-openai.api_key = "add-key"
+openai.api_key = "insert_key"
 
 def generate_recommendations(user_data):
     """
@@ -21,9 +21,10 @@ def generate_recommendations(user_data):
     
     Provide details such as:
     - Expected rental prices
-    - Walkability score
+    - Walkability score out of 5
     - Crime rate
     - Public transit availability
+    - Local schools and universities
     """
 
     try:
